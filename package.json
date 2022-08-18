@@ -103,7 +103,7 @@
 		"eslint-plugin-prettier": "4.0.0",
 		"eslint-plugin-react": "7.29.4",
 		"eslint-plugin-react-hooks": "4.5.0",
-		"eslint-plugin-react-prefer-function-component": "2.0.0",
+		"eslint-plugin-react-prefer-function-component": "3.0.0",
 		"eslint-plugin-sonarjs": "0.13.0",
 		"eslint-plugin-storybook": "0.5.11",
 		"eslint-plugin-testcafe": "0.2.1",
