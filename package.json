@@ -43,11 +43,11 @@
 		"resetMocks": true,
 		"restoreMocks": true
 	},
-  "lint-staged": {
-	"**/*.{js,jsx}": [
-	  "yarn lint"
-	]
-  },
+	"lint-staged": {
+		"**/*.{js,jsx}": [
+			"yarn lint"
+		]
+	},
 	"dependencies": {
 		"@chakra-ui/react": "2.0.0",
 		"@chakra-ui/system": "2.0.0",
