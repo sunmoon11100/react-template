@@ -1,0 +1,10 @@
+# Ignore artifacts:
+build
+coverage
+
+.yarn
+node_modules
+storybook-static
+
+# Ignore all HTML files:
+*.html
