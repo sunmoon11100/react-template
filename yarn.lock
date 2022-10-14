@@ -6824,20 +6824,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:5.23.0":
-  version: 5.23.0
-  resolution: "@typescript-eslint/parser@npm:5.23.0"
+"@typescript-eslint/parser@npm:5.40.0":
+  version: 5.40.0
+  resolution: "@typescript-eslint/parser@npm:5.40.0"
   dependencies:
-    "@typescript-eslint/scope-manager": 5.23.0
-    "@typescript-eslint/types": 5.23.0
-    "@typescript-eslint/typescript-estree": 5.23.0
-    debug: ^4.3.2
+    "@typescript-eslint/scope-manager": 5.40.0
+    "@typescript-eslint/types": 5.40.0
+    "@typescript-eslint/typescript-estree": 5.40.0
+    debug: ^4.3.4
   peerDependencies:
     eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: b65a732b0be06ac9e4b13df78c466517e33fd382985c5d85b6d51cfa295cdf3351594cc2f95dda41d57abb6115e3b8df815fbbb7793aa0c4eddbac11077b90a8
+  checksum: a8d02950dd12fcb1d19ad5f24cbfd186ca88d8a099160f93f99767896a45198a9f9bfbdd1a57c1ae50d452e6c895ae5b4d7e4623dfc87bca55a45c5ba16491f8
   languageName: node
   linkType: hard
 
@@ -6875,6 +6875,16 @@ __metadata:
     "@typescript-eslint/types": 5.23.0
     "@typescript-eslint/visitor-keys": 5.23.0
   checksum: cd3dda0b18d6730e34784fc63135fc9fe31673898d3e0868cd765ad78855351f285fe577297193cf179b3ce918c3d44453de85159a925f5c02d12a5626e787d8
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/scope-manager@npm:5.40.0":
+  version: 5.40.0
+  resolution: "@typescript-eslint/scope-manager@npm:5.40.0"
+  dependencies:
+    "@typescript-eslint/types": 5.40.0
+    "@typescript-eslint/visitor-keys": 5.40.0
+  checksum: 48dfb2f1a71bda5b782263e97608f1e1a2e8a89a603344af5072208be7936140af9d41483be439405c5ee379d0263555d6cc94405b187707f9ecfd7dd9821b5f
   languageName: node
   linkType: hard
 
@@ -6924,6 +6934,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@typescript-eslint/types@npm:5.40.0":
+  version: 5.40.0
+  resolution: "@typescript-eslint/types@npm:5.40.0"
+  checksum: 892ff162176a3e292b5b55090421c6d318187255f3f91be46bd5c0b38e3c25a49d9320ffb646d5709f3a2cdf350217a79e557886fdfdbdb322caec27f2b3d116
+  languageName: node
+  linkType: hard
+
 "@typescript-eslint/typescript-estree@npm:5.22.0":
   version: 5.22.0
   resolution: "@typescript-eslint/typescript-estree@npm:5.22.0"
@@ -6957,6 +6974,24 @@ __metadata:
     typescript:
       optional: true
   checksum: 8d85bb1cd777e93cc7322ae8fea25f9b924def02494cdb8395c1d5d17b5fd3ac9bc969418a1d20a5dc28c2cdd85da20e13527e28b595c06ff6f84cd22a78d73f
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/typescript-estree@npm:5.40.0":
+  version: 5.40.0
+  resolution: "@typescript-eslint/typescript-estree@npm:5.40.0"
+  dependencies:
+    "@typescript-eslint/types": 5.40.0
+    "@typescript-eslint/visitor-keys": 5.40.0
+    debug: ^4.3.4
+    globby: ^11.1.0
+    is-glob: ^4.0.3
+    semver: ^7.3.7
+    tsutils: ^3.21.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 8b67b8c4278f6bbd16ec521c847920c6f0ba57ec4bf148505c057aa160363852f50f9db73f42ee71ac3906940e8554e9c27686194a57f6554efcd82a8b0fa3e8
   languageName: node
   linkType: hard
 
@@ -7009,6 +7044,16 @@ __metadata:
     "@typescript-eslint/types": 5.23.0
     eslint-visitor-keys: ^3.0.0
   checksum: 322e10d52a985e8a90d3612bb9d09a87dc64fc4cb1248484f1a9a7a98f65d3ef65a465ce868773a4939e35fa3b726ad609dac5a168efd7eaca4b06df33e965e3
+  languageName: node
+  linkType: hard
+
+"@typescript-eslint/visitor-keys@npm:5.40.0":
+  version: 5.40.0
+  resolution: "@typescript-eslint/visitor-keys@npm:5.40.0"
+  dependencies:
+    "@typescript-eslint/types": 5.40.0
+    eslint-visitor-keys: ^3.3.0
+  checksum: a11787f7e6ac7018b22848028c9116d028f89782b0ee120517f0384e9db260e3001ad897512d9c3cf15ce16073ae4c1dc7f81f29d6d40dec78b5e8c8e79f344f
   languageName: node
   linkType: hard
 
@@ -13829,7 +13874,7 @@ fsevents@^1.2.7:
   languageName: node
   linkType: hard
 
-"globby@npm:^11.0.2, globby@npm:^11.0.4":
+"globby@npm:^11.0.2, globby@npm:^11.0.4, globby@npm:^11.1.0":
   version: 11.1.0
   resolution: "globby@npm:11.1.0"
   dependencies:
@@ -21181,7 +21226,7 @@ fsevents@^1.2.7:
     "@types/react": 18.0.9
     "@types/react-dom": 18.0.4
     "@typescript-eslint/eslint-plugin": 5.23.0
-    "@typescript-eslint/parser": 5.23.0
+    "@typescript-eslint/parser": 5.40.0
     chromatic: 6.5.4
     cspell: 5.20.0
     dotenv-cli: 5.1.0
