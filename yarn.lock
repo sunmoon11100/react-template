@@ -12223,10 +12223,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-prefer-function-component@npm:2.0.0":
-  version: 2.0.0
-  resolution: "eslint-plugin-react-prefer-function-component@npm:2.0.0"
-  checksum: bd08a33c1ada982257d45ca8346c7b7c148ed6311b5e1fddd691c39669315b79da02769133f9e493aff26277e4e033fbdc0e12d707db13141d1a9d984c842116
+"eslint-plugin-react-prefer-function-component@npm:3.1.0":
+  version: 3.1.0
+  resolution: "eslint-plugin-react-prefer-function-component@npm:3.1.0"
+  checksum: 4a82ec1686f619766e698b66f59d35b7b7bc525a8246da8bda76af82662277f3b0fedc0719d20340eaaa1cd9b731d95ebe16e804005d20fc2814142c0b2f835d
   languageName: node
   linkType: hard
 
@@ -21194,7 +21194,7 @@ fsevents@^1.2.7:
     eslint-plugin-prettier: 4.0.0
     eslint-plugin-react: 7.29.4
     eslint-plugin-react-hooks: 4.5.0
-    eslint-plugin-react-prefer-function-component: 2.0.0
+    eslint-plugin-react-prefer-function-component: 3.1.0
     eslint-plugin-sonarjs: 0.13.0
     eslint-plugin-storybook: 0.5.11
     eslint-plugin-testcafe: 0.2.1
